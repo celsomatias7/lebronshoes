@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebron Shoes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lebron Shoes</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        
+    </header>
+    <div class="container">
+        <section id="sobre-loja">
+            <img src="./images/lojatenis.jpeg" />
+            <div class="sobre-loja">
+            <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quidem quam eligendi doloremque modi maiores, odit dolorem natus ducimus explicabo non voluptatibus, illum tempora reiciendis molestiae nihil dolore, repellendus iusto.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nobis odio error perspiciatis nihil facilis quam nostrum, deserunt amet sapiente voluptates ipsum, repellat veritatis, architecto enim dolores officiis aspernatur quae!
+                </p>
+            </div>
+        </section>
+    </div>
+    <div class="container conteudo">
+        <section id="produtos">
+            <h2>Produtos</h2>
+                <div class="galeria">
+                    <article id="produtos-galeria">
+                        <img src="./images/tenis 1.png" />
+                        <h3>
+                            Tênis Nike LeBron XIX Unissex
+                        </h3>
+                        <p>
+                            Quando as apostas são altas e a pressão aumenta, LeBron prospera.
+                        </p>
+                        <button type="button">Adicionar ao carrinho</button>    
+                    </article>
+                    <article id="produtos-galeria">
+                        <img src="./images/tenis 2.png" />
+                        <h3>
+                            LeBron NXXT Gen
+                        </h3>
+                        <p>
+                            Quer seja um saltador do tipo que faz enterradas ou aquele que está sempre vagando pela linha.
+                        </p>
+                        <button type="button">Adicionar ao carrinho</button>    
+                    </article>
+                    <article id="produtos-galeria">
+                        <img src="./images/tenis 3.png" />
+                        <h3>
+                            Tênis Nike LeBron XIX Unissex
+                        </h3>
+                        <p>
+                            LeBron prospera quando as apostas são altas e a pressão está lá em cima.
+                        </p>
+                        <button type="button">Adicionar ao carrinho</button>    
+                    </article>
+                    <article id="produtos-galeria">
+                        <img src="./images/tenis 4.png" />
+                        <h3>
+                            Tênis Nike LeBron 12 xll
+                        </h3>
+                        <p>
+                            Um tênis tão podoroso quanto a enterrada mortal do Lebron.
+                        </p>
+                        <button type="button">Adicionar ao carrinho</button>    
+                    </article>
+                </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.botao-menu button').click(function() {
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+<div class="container">
+    <footer>Lebron Shoes - Todos os direitos reservados</footer>
+</div>
+</html>
